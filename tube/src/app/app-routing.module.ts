@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { HomepageComponent } from './homepage/homepage.component';
+import { VideoComponent } from './video/video.component';
+
+const routes: Routes = [
+  
+  { path: '', component: HomepageComponent },
+  { path: 'video', component: VideoComponent },
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
