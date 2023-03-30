@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { VideoComponent } from './video/video.component';
+import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   
